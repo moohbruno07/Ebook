@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dz Book | Registration Page</title>
+            <link rel="shortcut icon" type="image/x-icon" href="img/bookicon2.png" />
+
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+  </head>
+
+  <body background="img/bg2.jpg">
+
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/bookicon1.png" class="hidden-xs">
+                    <h3 class="visible-xs">Dz Book</h3>
+                </a>
+            </div>
+
+
+    
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+
+<div class="container form-style-10">
+<h1>Sign Up Now!<span>Sign up and tell us what you think of the site!</span></h1>
+
+  <div class="tab-content">
+    <div id="step1" class="tab-pane fade in active">
+      
+<form action=" " method="post">
+    <div class="section"><span>1</span>Full Name</div>
+    <div class="inner-wrap">
+        <input  name="name" placeholder="Full Name" type="text">
+    </div>
+
+    <div class="section"><span>2</span>Email</div>
+    <div class="inner-wrap">
+      <input name="email" placeholder="E-Mail" type="email" maxlength="70">
+    </div>
+
+        <div class="section"><span>3</span>Passwords</div>
+        <div class="inner-wrap">
+        <input name="password" placeholder="Password" type="password">
+        <input name="rpassword" placeholder="Retyping Password" type="password">
+    </div>
+
+            
+<div class="button-section">
+    <center><a data-toggle="tab" class="btn btn-warning" href="#step2">Next <span class="glyphicon glyphicon-send"></span></a></center>
+    </div>
+          </div>
+
+    <div id="step2" class="tab-pane fade">
+    
+      
+      <div class="section"><span>4</span>Favorite Writer</div>
+        <div class="inner-wrap">
+          <input name="fwriter" placeholder="Favorite Writer" type="text">
+      </div>
+
+    <div class="section"><span>5</span>Favorite Categories</div>
+        <div class="inner-wrap">
+<div class="all">
+  <div class="col-sm-6 col-md-4">
+                                  <label>
+                                    <input type="checkbox" name="romance" value="1"> Romance
+                                </label>
+                           
+                                <label>
+                                    <input type="checkbox" name="fairytales" value="1"> Fairy Tales
+                                </label>
+                            
+                                <label>
+                                    <input type="checkbox" name="mystery" value="1"> Mystery
+                                </label>
+                            
+                                
+    </div>
+      <div class="col-sm-6 col-md-4">                                               
+                                <label>
+                                    <input type="checkbox" name="sport" value="1"> Sport
+                                </label>
+                           
+                                <label>
+                                    <input type="checkbox" name="science" value="1"> Science
+                                </label>
+
+                                <label>
+                                    <input type="checkbox" name="fiction" value="1"> Fiction
+                                </label>
+                          
+                      </div>
+                     <div class="col-sm-6 col-md-4">                   
+                                <label>
+                                    <input type="checkbox" name="history" value="1"> History
+                                </label>
+              
+                                <label>
+                                    <input type="checkbox" name="coocking" value="1"> Coocking
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="computerscience" value="1"> Computer Science
+                                </label>
+</div>
+</div>
+      </div>
+    <center><a data-toggle="tab" class="btn btn-warning" href="#step3">Next <span class="glyphicon glyphicon-send"></span></a></center>
+    </div>
+
+    <div id="step3" class="tab-pane fade"><br>
+
+    <div class="section"><span>6</span>Type Of Account</div>
+        <div class="inner-wrap">
+            <select name="typecompte">
+      <option>Select your Type</option>
+      <option>---------------------------------</option>
+      <option value="member">Member</option>
+      <option value="writer">Writer</option>
+      <option value="Commrce">Company</option>
+    </select>
+
+      </div>
+      
+                <div class="section"><span>7</span>Choose a Picture</div>
+        <div class="inner-wrap">
+          <input name="pic" type="file" accept="image/*">
+      </div>
+
+    <div class="button-section">
+    <center><button type="submit" class="btn btn-warning" name="submit"> Finish <span class="glyphicon glyphicon-send"></span></button></center>
+    </div>
+</form>
+</div>
+
+    </div>
+    
+  </div>
+</div>
+
+      <footer class="main-footer">
+        <div class="pull-right hidden-xs">
+
+          <span " style="font-size: 16px; font-weight: bold; margin-right: 7px;"> Follow Us </span>
+          <span class="facebook" style="margin-right: 5px;"><i class="fa fa-facebook-square" style="font-size: 24px;" aria-hidden="true"></i> Facebook </span>
+          <span class="twiter" style="margin-right: 5px;"><i class="fa fa-twitter-square" style="font-size: 24px;" aria-hidden="true"></i> Twiter </span>
+          <span class="google-plus" style="margin-right: 5px;"><i class="fa fa-google-plus-square" style="font-size: 24px;" aria-hidden="true"></i> Google +</span>
+
+        </div>
+        <strong>Copyright &copy; 2017-2018 <a href="#">Dz Book</a>.</strong> All rights reserved.
+      </footer>
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+   
+  </body>
+</html>
